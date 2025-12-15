@@ -1,0 +1,131 @@
+ body {
+    margin: 0px;
+    padding : 0px;
+    background-color: #000000;
+    
+ }
+
+.intro {
+   margin: 0px;
+   padding: 0px;
+   border-style:solid;
+   border-color: #338ac5;
+   border-style: outset;
+   color:#f3ebeb;
+   margin-top: 12%;
+   margin-left: 4%;
+   border-width: 4px;
+   width : 700px;
+   border-radius: 20px;
+   font-size: 15px;
+   white-space:pre-wrap;
+   word-wrap: break-word;
+   padding: 5px 10px;
+   font-size: 20px;
+
+}
+.intro1 {
+   margin: 0px;
+   padding: 0px;
+   padding-top: 3px;
+   width : 600px;
+   font-size: 30px;
+   color: rgb(245, 238, 238);
+}  
+
+.full {  
+   margin: 0px;
+   margin-left: 13%;
+   margin-top: 2%;
+   animation-delay: 2s;
+   color : white;
+   border-right: 3px solid #fbf6f6;
+   
+   animation: type-text 4s steps(50,end)  infinite;
+              
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+.full ::after {
+   content: ''; 
+   height: 1em;
+   display: inline-block;
+   animation:cursor 0.7s  step-end   ;
+}
+
+
+.image1 {
+
+   position: absolute;
+   width: 600px;
+   height: 500px;
+   top : 100px;
+   right: 60px;
+   border-radius: 300px;
+   image-resolution: 100;
+   filter: brightness(50%);
+   filter: contrast(150%);
+
+}
+
+.images {
+      image-resolution: 100;
+   filter: brightness(50%);
+   filter: contrast(150%);
+}
+
+.projects .project-card {
+   color: #60a5fa;
+
+   text-align: center;
+   font-size: 30px;
+   margin-top: 40px;
+   margin-bottom: 15px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   height: 320px;     
+   margin-left: 37%;
+   margin-right: 37%;
+   border: 2px solid rgb(189, 186, 234);
+   overflow: hidden;      
+   border-radius: 12px;          
+}
+
+
+.projects .view {
+   color : #60a5fa ;
+   border: solid;
+   border-color: rgb(189, 186, 234);
+   border-radius: 12px;
+   text-align: center;
+   line-height: 40px;
+   align-items: center;
+   font-size: 30px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   margin-left: 37%;
+   margin-right: 37%;
+}
+
+.projects .view:hover {
+    box-shadow:
+    0 0 15px rgba(0, 120, 255, 0.6),
+    0 0 40px rgba(0, 120, 255, 0.3);
+  transform: translateY(-6px);
+  border-color: #3b82f6;
+}
+
+.project-card:hover {
+  box-shadow:
+    0 0 15px rgba(0, 120, 255, 0.6),
+    0 0 40px rgba(0, 120, 255, 0.3);
+  transform: translateY(-6px);
+  border-color: #3b82f6;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      
+}
