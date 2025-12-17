@@ -11,28 +11,28 @@
 </head>
 <body>
     <!-- <button onclick="skill()">hi</button> -->
-    <script >
-        
-        document.getElementsByClassName("skill1").onclick = skill()
-        function skill1(){
-            window.scrollBy(0,600);
-        }
-        function skill2(){
-            window.scrollBy(0,1300);
-        }
-        function skill1(){
-            window.scrollBy(0,600);
-        }
+    <script>
+      function skill() {
+        window.scrollBy(0,670)
+      }  
+      function Projects() {
+        window.scrollBy(0,1650)
+      } 
+      function Resume() {
+        window.scrollBy(0,2340)
+      }   
+      function Connect() {
+        window.scrollBy(0,3400)
+      }   
     </script>
 
-    
     <nav>
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a onclick="skill1()" class="skill1" >Skill</a></li>
-            <li><a onclick="skill2()">Projects</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a onclick="skill()">Skill</a></li>
+            <li><a onclick="Projects()">Projects</a></li>
+            <li><a onclick="Resume()">Resume</a></li>
+            <li><a onclick="Connect()">Connect</a></li>
             
         </ul>
     </nav>
@@ -86,13 +86,24 @@ information are listed below.
       <div class="skill-card">Communication</div>
     </div>
   </div>
-  <div class="skill-section">
+  <div class="skill-sectio  n">
     <h3 style="margin-left: 370px;">Python</h3>
     <div class="skills-grid">
       <div class="skill-card">NumPy</div>
       <div class="skill-card">Pandas</div>
     </div>
   </div>
+</div>
+
+<hr class="line1">
+<div class="dsa">
+  Data Structure and algorithem
+</div>
+
+<div class="container">
+  <a class="s" href="https://leetcode.com/u/Tejas_07_iiit/"> <img class="leetcode" src="leetcode.png"></a>
+  <a class="s" href="https://codeforces.com/profile/Tejas_07_iiit"> <img class="codeforces" src="codeforces.webp"></a>
+  <a class="s" href="https://www.codechef.com/users/tejas_07_iiit"> <img class="codechef" src="codechef.png"></a>
 </div>
 
 <div class="section-title">
@@ -108,5 +119,49 @@ information are listed below.
     view
   </div>
 </div>
+
+<div class="section-title">
+  <span>Resume</span>
+</div>
+
+
+<iframe class="iframe" src="Resume.pdf"></iframe>
+
+<div class="section-title">
+  <span>Connect With Me</span>
+</div>
+
+
+<div class="social">
+  <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=DmwnWrRmVpVMlwZHTntpnBdBQCKKcztZvnDDHXgMRnGStWGGJkpwwBFpsJTMLdzNMFmfhFpfrjkL"><img src="gmail.webp"></a>
+  <a href="https://github.com/Tejas-07-iiit"><img src="Github.jpg"></a>
+  <a href="https://www.linkedin.com/in/tejas-ambaliya-72a807324/"><img src="Linkedin.png"></a>
+  <a href="https://x.com/tejas_ambaliya"><img src="x.avif"></a>
+  <a href="https://web.telegram.org/k/"><img src="telegram.png"></a>
+</div>
+
+<div class="social1">
+  <div style="margin-left: 31.5%;">Gmail</div>
+  <div style="margin-left: 6px;">Github</div>
+  <div style="margin-left: 2px;">Linkedin</div>
+  <div style="margin-left: 12px;">X</div>
+  <div style="margin-left: 12px;">Telegram</div>
+</div>
+
+<section class="contact">
+  <h2>Get in Touch</h2>
+
+<form action="https://formspree.io/f/xkgdlzyy" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+</section>
+
+
+
 </body>
 </html>     
