@@ -1,4 +1,4 @@
-nav{
+.nav1{
    background-color:rgb(28, 28, 112);
    border-style: solid;
    border-color: rgba(0, 0, 0, 0.933);
@@ -9,7 +9,8 @@ nav{
     
 }
 
-nav ul  {
+.nav1 ul  {
+   color: white;
    list-style-type: none ;
    margin : 0;
    padding : 0;
@@ -17,17 +18,16 @@ nav ul  {
    overflow: hidden;
 }
 
-nav ul li a {
+.nav1 ul li a {
    display: block;
-   color : white;
    text-decoration: none;
    padding: 10px 17px;
    text-decoration: none; 
    font-weight:bold;
    
 }
-nav ul li:hover{
-   background-color: rgb(16, 16, 15);
+.nav1 ul li:hover{
+   background-color: rgba(0, 0, 0, 0.73);
    border-radius: 10px;
    text-transform: uppercase;
    cursor: context-menu;
