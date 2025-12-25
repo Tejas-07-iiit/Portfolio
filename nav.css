@@ -1,4 +1,4 @@
-.nav1{
+.project1 .nav1{
    background-color:rgb(28, 28, 112);
    border-style: solid;
    border-color: rgba(0, 0, 0, 0.933);
@@ -9,7 +9,7 @@
     
 }
 
-.nav1 ul  {
+.project1 .nav1 ul  {
    color: white;
    list-style-type: none ;
    margin : 0;
@@ -18,7 +18,7 @@
    overflow: hidden;
 }
 
-.nav1 ul li a {
+.project1 .nav1 ul li a {
    display: block;
    text-decoration: none;
    padding: 10px 17px;
@@ -26,7 +26,7 @@
    font-weight:bold;
    
 }
-.nav1 ul li:hover{
+.project1 .nav1 ul li:hover{
    background-color: rgba(0, 0, 0, 0.73);
    border-radius: 10px;
    text-transform: uppercase;
