@@ -1,3 +1,7 @@
+* {
+   margin: 0;
+   padding:0;
+}
 .nav1{
    background-color:rgb(28, 28, 112);
    border-style: solid;

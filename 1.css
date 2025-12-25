@@ -1,8 +1,13 @@
- body {
+* {
+   margin: 0;
+   padding: 0;
+}
+html body {
     margin: 0px;
     padding : 0px;
     background-color: #000000;
-    
+    width: 100%;
+    overflow-x: hidden;
  }
 
 html {
