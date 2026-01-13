@@ -42,13 +42,13 @@ html {
 }  
 
 .image1 {
-
-   position: absolute;
-   width: 600px;
+   object-fit: cover;
    height: 500px;
-   top : 100px;
-   right: 60px;
-   border-radius: 300px;
+   position: absolute;
+   top : 190px;
+   margin-left: 63%;
+   width: 400px;
+   border-radius: 900px;
    image-resolution: 100;
    filter: brightness(50%);
    filter: contrast(150%);
