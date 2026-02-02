@@ -51,7 +51,6 @@ html {
   width: 320px;
   max-width: 90%;
   border-radius: 105px;
-  filter: brightness(1) contrast(2);
   border: 4px solid rgba(56, 56, 160, 0.897);
   transition: transform 0.3s ease;
 }
