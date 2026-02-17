@@ -1,44 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="./Images/Intro.png" type="image/x-icon">
-    <meta name="viewport" content="This website is about Portfolio of iiit student">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-     <link rel="stylesheet" type="text/css" href="part1.css">
-     <link rel="stylesheet" type="text/css" href="part2.css">
+  <meta charset="UTF-8">
+  <link rel="icon" href="./Images/Intro.png" type="image/x-icon">
+  <meta name="viewport" content="This website is about Portfolio of iiit student">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="part1.css">
+  <link rel="stylesheet" type="text/css" href="part2.css"> -->
+  <link rel="stylesheet" type="text/css" href="Main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
+
 <body>
-    <script>
-      function skill() {
-        window.scrollBy(0,670)
-      } 
-      function Projects() {
-        window.scrollBy(0,1600)
-      } 
-      function Resume() {
-        window.scrollBy(0,2280)
-      }   
-      function Connect() {
-        window.scrollBy(0,3400)
-      }   
-    </script>
 
-    <div class="nav1">
-        <ul>
-            <li><a>Home</a></li>
-            <li><a onclick="skill()">Skill</a></li>
-            <li><a onclick="Projects()">Projects</a></li>
-            <li><a onclick="Resume()">Resume</a></li>
-            <li><a onclick="Connect()">Connect</a></li>
-            
-        </ul>
-    </div>
+  <div class="nav1">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#connect">Connect</a></li>
 
-<div class="maini">
-  <pre class = "intro"><h1 class="intro1">Welcome</h1>  
+    </ul>
+  </div>
+
+  <div class="maini" id="home">
+    <pre class="intro"><h1 class="intro1">Welcome</h1>  
   Hi, my name is Tejas.
   I am a B.Tech Computer Science and Engineering student at
   IIIT (Indian Institute of Information Technology), Surat,
@@ -47,161 +38,170 @@
   I am a passionate problem solver with a strong interest in
   programming and Web Dev. My skills, projects, and contact 
   information are listed below.
-  </pre>      
-  
-  
-  <img class="image1" src="./Images/Profile.jpg" alt="Italian Trulli">
-</div>
+  </pre>
 
-<!-- <hr class="line"> -->
-<div class="section-title">
-  <span>SKILLS</span>
-</div>
-<div class="skills-wrapper">
-  <div class="skill-section">
-    <h3>Programming & Scripting</h3>
-    <div class="skills-grid">
-      <div class="skill-card">C</div>
-      <div class="skill-card">C++</div>
-      <div class="skill-card">Python</div>
-      <div class="skill-card">Shell Script</div>
-      <div class="skill-card">Data Structure and algorithem</div>
+
+    <img class="image1" src="./Images/profile.png" alt="Italian Trulli">
+  </div>
+
+  <!-- <hr class="line"> -->
+  <div class="section-title">
+    <span>SKILLS</span>
+  </div>
+  <div class="skills-wrapper" id="skills">
+    <div class="skill-section">
+      <h3>Programming & Scripting</h3>
+      <div class="skills-grid">
+        <div class="skill-card">C</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Shell Script</div>
+        <div class="skill-card">Data Structure and algorithem</div>
+      </div>
+    </div>
+
+    <div class="skill-section">
+      <h3>Frontend Technology</h3>
+      <div class="skills-grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Bootstrap</div>
+        <div class="skill-card">React Js</div>
+      </div>
+    </div>
+    <div class="skill-section">
+      <h3>Backend Technology</h3>
+      <div class="skills-grid">
+        <div class="skill-card">NodeJs</div>
+        <div class="skill-card">Express Js</div>
+        <div class="skill-card">REST API</div>
+      </div>
+    </div>
+    <div class="skill-section">
+      <h3>DataBase</h3>
+      <div class="skills-grid">
+        <div class="skill-card">MongoDB</div>
+        <div class="skill-card">My sql</div>
+      </div>
+    </div>
+    <div class="skill-section">
+      <h3>Other</h3>
+      <div class="skills-grid">
+        <div class="skill-card">Git</div>
+        <div class="skill-card">Git hub</div>
+        <div class="skill-card">Communication</div>
+        <div class="skill-card">Microsoft Excel Macro</div>
+      </div>
+    </div>
+    <div class="skill-section">
+      <h3>Python</h3>
+      <div class="skills-grid">
+        <div class="skill-card">NumPy</div>
+        <div class="skill-card">Pandas</div>
+      </div>
     </div>
   </div>
 
-  <div class="skill-section">
-    <h3>Frontend Technology</h3>
-    <div class="skills-grid">
-      <div class="skill-card">HTML</div>
-      <div class="skill-card">CSS</div>
-      <div class="skill-card">JavaScript</div>
-      <div class="skill-card">Bootstrap</div>
-      <div class="skill-card">React Js</div>
+  <hr class="line1">
+  <div class="dsa">
+    Data Structure and algorithem
+  </div>
+
+  <div class="profiles-container">
+    <a class="s" href="https://leetcode.com/u/Tejas_07_iiit/"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="40">
+    </a>
+    <a class="s" href="https://codeforces.com/profile/Tejas_07_iiit"><img src="./Images/codeforces.webp" alt=""></a>
+  </div>
+
+  <div class="section-title">
+    <span>Projects</span>
+  </div>
+
+  <div class="project1" id="projects">
+    <div class="card project" style="width: 18rem;">
+      <img style="height: 15rem; object-fit: cover; filter: brightness(10);" src="./Images/Portfolio_image.png"
+        class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Portfolio</h5>
+        <p class="card-text">Evry information about me Skills , projects , ...</p>
+        <a href="https://tejasambaliya.me/" style="text-align: center;" class="btn btn-dark">View</a>
+      </div>
     </div>
-  </div>
-  <div class="skill-section">
-    <h3>Backend Technology</h3>
-    <div class="skills-grid">
-      <div class="skill-card">NodeJs</div>
-      <div class="skill-card">Express Js</div>
-      <div class="skill-card">REST API</div>
+    <div class="card project" style="width: 18rem; ">
+      <img style="height: 15rem; object-fit: cover; filter:contrast(10);" src="./Images/Text_analyzer_favicon1.png"
+        class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Text Analyzer</h5>
+        <p class="card-text">We can modify Your text, detect mail... Explore Now .. </p>
+        <a href="https://tejas-07-iiit.github.io/Text-Analyzer/" style="text-align: center;"
+          class="btn btn-dark">View</a>
+      </div>
     </div>
+
   </div>
-  <div class="skill-section">
-    <h3>DataBase</h3>
-    <div class="skills-grid">
-      <div class="skill-card">MongoDB</div>
-      <div class="skill-card">My sql</div>
+
+  <div class="section-title">
+    <span>Resume</span>
+  </div>
+
+  <div class="resume" id="resume">
+    <iframe class="iframe" src="Resume.pdf"></iframe>
+  </div>
+
+  <div class="section-title">
+    <span>Connect With Me</span>
+  </div>
+
+
+  <div class="social">
+
+    <div class="card">
+      <a
+        href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=DmwnWrRmVpVMlwZHTntpnBdBQCKKcztZvnDDHXgMRnGStWGGJkpwwBFpsJTMLdzNMFmfhFpfrjkL"><i
+          class="fa-solid fa-envelope"></i></a>
+      <div>Gmail</div>
     </div>
-  </div>
-  <div class="skill-section">
-    <h3>Other</h3>
-    <div class="skills-grid">
-      <div class="skill-card">Git</div>
-      <div class="skill-card">Git hub</div>
-      <div class="skill-card">Communication</div>
-      <div class="skill-card">Microsoft Excel Macro</div>
+    <div class="card">
+      <a href="https://github.com/Tejas-07-iiit"><i class="fa-brands fa-github"></i></a>
+      <div style="margin-left: 6px;">Github</div>
     </div>
-  </div>
-  <div class="skill-section">
-    <h3>Python</h3>
-    <div class="skills-grid">
-      <div class="skill-card">NumPy</div>
-      <div class="skill-card">Pandas</div>
+    <div class="card">
+
+
+      <a href="www.linkedin.com/in/tejas-ambaliya"><i class="fa-brands fa-linkedin"></i></a>
+      <div>Linkedin</div>
     </div>
-  </div>
-</div>
+    <div class="card">
+      <a href="https://x.com/tejas_ambaliya"><i class="fa-brands fa-x-twitter"></i></a>
+      <div>X</div>
+    </div>
+    <div class="card">
+      <a href="https://web.telegram.org/k/"><i class="fa-brands fa-telegram"></i></a>
+      <div>Telegram</div>
+    </div>
 
-<hr class="line1">
-<div class="dsa">
-  Data Structure and algorithem
-</div>
-
-<div class="container">
-  <a class="s" href="https://leetcode.com/u/Tejas_07_iiit/"> <img class="leetcode" src="./Images/leetcode.png"></a>
-  <a class="s" href="https://codeforces.com/profile/Tejas_07_iiit"> <img class="codeforces" src="./Images/codeforces.webp"></a>
-  <a class="s" href="https://www.codechef.com/users/tejas_07_iiit"> <img class="codechef" src="./Images/codechef.png"></a>
-</div>
-
-<div class="section-title">
-  <span>Projects</span>
-</div>
-
-<div class="project1">
-  <div class="card project" style="width: 18rem;">
-    <img style="height: 15rem; object-fit: cover; filter: brightness(10);" src="./Images/Portfolio_image.png" class="card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Portfolio</h5>
-      <p class="card-text">Evry information about me Skills , projects , ...</p>
-      <a href="https://tejasambaliya.me/" style="text-align: center;" class="btn btn-dark">View</a>
-    </div>  
-  </div>
-  <div class="card project" style="width: 18rem; ">
-    <img style="height: 15rem; object-fit: cover; filter:contrast(10);" src="./Images/Text_analyzer_favicon1.png" class="card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Text Analyzer</h5>
-      <p class="card-text">We can modify Your text, detect mail... Explore Now .. </p>
-      <a href="https://tejas-07-iiit.github.io/Text-Analyzer/" style="text-align: center;" class="btn btn-dark">View</a>
-    </div>  
-  </div>
-  
-</div>
-
-<div class="section-title">
-  <span>Resume</span>
-</div>
-
-<div class="resume">
-  <iframe class="iframe" src="Resume.pdf"></iframe>
-</div>
-
-<div class="section-title">
-  <span>Connect With Me</span>
-</div>
-
-
-<div class="social">
-
-  <div class="card">
-    <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=DmwnWrRmVpVMlwZHTntpnBdBQCKKcztZvnDDHXgMRnGStWGGJkpwwBFpsJTMLdzNMFmfhFpfrjkL"><img src="./Images/gmail.webp"></a>
-    <div >Gmail</div>
-  </div>
-  <div class="card">
-    <a href="https://github.com/Tejas-07-iiit"><img src="./Images/Github.jpg"></a>
-    <div style="margin-left: 6px;">Github</div>
-  </div>
-  <div class="card">
-
-
-    <a href="www.linkedin.com/in/tejas-ambaliya"><img src="./Images/Linkedin.png"></a>
-    <div >Linkedin</div>
-  </div>
-  <div class="card">
-    <a href="https://x.com/tejas_ambaliya"><img src="./Images/x.avif"></a>
-    <div >X</div>
-  </div>
-  <div class="card">
-    <a href="https://web.telegram.org/k/"><img src="./Images/telegram1.png"></a>
-    <div >Telegram</div>
   </div>
 
-</div>
+  <section class="contact" id="connect">
+    <h2>Get in Touch</h2>
 
-<section class="contact">
-  <h2>Get in Touch</h2>
+    <form action="https://formspree.io/f/xkgdlzyy" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
 
-  <form action="https://formspree.io/f/xkgdlzyy" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
 
-    <button type="submit">Send Message</button>
-</form>
-
-</section>
+  </section>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
 </body>
-</html>     
+
+</html>
