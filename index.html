@@ -3,222 +3,493 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./Images/Intro.png" type="image/x-icon">
-  <meta name="viewport" content="This website is about Portfolio of iiit student">
-  <title>Tejas-Ambaliya</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" type="text/css" href="part1.css">
-  <link rel="stylesheet" type="text/css" href="part2.css"> -->
-  <link rel="stylesheet" type="text/css" href="Main.css">
+  <title>Tejas Ambaliya | Portfolio</title>
+  <meta name="description" content="Portfolio of Tejas Ambaliya - Computer Science Student at IIIT Surat, Software Engineering Intern, and AI Agent Developer.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" type="text/css" href="Main.css">
 </head>
 
 <body>
 
-  <div class="nav1">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#skills">Skill</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#connect">Connect</a></li>
+  <!-- Navigation -->
+  <nav class="nav-container">
+    <div class="nav-content">
+      <a href="#home" class="nav-brand">Tejas<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#positions">Responsibility</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#connect" class="btn-connect">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    </ul>
-  </div>
-
-  <div class="maini" id="home">
-    <pre class="intro"><h1 class="intro1">Welcome</h1>  
-  Hi, my name is Tejas.
-  I am a B.Tech Computer Science and Engineering student at
-  IIIT (Indian Institute of Information Technology), Surat,
-  Gujarat.
-
-  I am a passionate problem solver with a strong interest in
-  programming and Web Dev. My skills, projects, and contact 
-  information are listed below.
-  </pre>
-
-
-    <img class="image1" src="./Images/profile.png" alt="Italian Trulli">
-  </div>
-
-  <!-- <hr class="line"> -->
-  <div class="section-title">
-    <span>SKILLS</span>
-  </div>
-  <div class="skills-wrapper" id="skills">
-    <div class="skill-section">
-      <h3>Programming & Scripting</h3>
-      <div class="skills-grid">
-        <div class="skill-card">C</div>
-        <div class="skill-card">C++</div>
-        <div class="skill-card">Python</div>
-        <div class="skill-card">Shell Script</div>
-        <div class="skill-card">Data Structure and algorithem</div>
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-container">
+      <div class="hero-text">
+        <div class="hero-tag"><i class="fa-solid fa-graduation-cap"></i> IIIT Surat CSE Student</div>
+        <h1 class="hero-title">Hi, I'm <span class="gradient-text">Tejas Ambaliya</span></h1>
+        <h2 class="hero-subtitle">B.Tech CSE Student @ IIIT Surat & Full-Stack Developer</h2>
+        <p class="hero-description">
+          Currently in 5th Semester at <strong>IIIT Surat</strong> with experience as a <strong>Software Engineering Intern</strong> at Yo Greet LLP. Passionate about building multi-agent AI systems, full-stack web applications, microservices, and solving complex DSA problems.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View Projects</a>
+          <a href="Resume.pdf" target="_blank" class="btn btn-secondary"><i class="fa-solid fa-file-pdf"></i> Resume</a>
+          <a href="#connect" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <div class="quick-stats">
+          <div class="stat-item">
+            <span class="stat-num">5th Sem</span>
+            <span class="stat-label">IIIT Surat CSE</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">Top 15</span>
+            <span class="stat-label">DevHeat Hackathon</span>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="skill-section">
-      <h3>Frontend Technology</h3>
-      <div class="skills-grid">
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">Bootstrap</div>
-        <div class="skill-card">React Js</div>
-      </div>
-    </div>
-    <div class="skill-section">
-      <h3>Backend Technology</h3>
-      <div class="skills-grid">
-        <div class="skill-card">NodeJs</div>
-        <div class="skill-card">Express Js</div>
-        <div class="skill-card">REST API</div>
-      </div>
-    </div>
-    <div class="skill-section">
-      <h3>DataBase</h3>
-      <div class="skills-grid">
-        <div class="skill-card">MongoDB</div>
-        <div class="skill-card">My sql</div>
-      </div>
-    </div>
-    <div class="skill-section">
-      <h3>Other</h3>
-      <div class="skills-grid">
-        <div class="skill-card">Git</div>
-        <div class="skill-card">Git hub</div>
-        <div class="skill-card">Communication</div>
-        <div class="skill-card">Microsoft Excel Macro</div>
-      </div>
-    </div>
-    <div class="skill-section">
-      <h3>Python</h3>
-      <div class="skills-grid">
-        <div class="skill-card">NumPy</div>
-        <div class="skill-card">Pandas</div>
-      </div>
-    </div>
-  </div>
-
-  <hr class="line1">
-  <div class="dsa">
-    Data Structure and algorithem
-  </div>
-
-  <div class="profiles-container">
-    <a class="s" href="https://leetcode.com/u/Tejas_07_iiit/"><img
-        src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="40">
-    </a>
-    <a class="s" href="https://codeforces.com/profile/Tejas_07_iiit"><img src="./Images/codeforces.webp" alt=""></a>
-  </div>
-
-  <div class="section-title">
-    <span>Projects</span>
-  </div>
-
-  <div class="project1" id="projects">
-    <div class="card project" style="width: 18rem;">
-      <img style="height: 15rem; object-fit: cover; filter: brightness(10);" src="./Images/Portfolio_image.png"
-        class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title">Portfolio</h5>
-        <p class="card-text">Evry information about me Skills , projects , ...</p>
-        <a href="https://tejasambaliya.me/" style="text-align: center;" class="btn btn-dark">View</a>
-      </div>
-    </div>
-    <div class="card project" style="width: 18rem; ">
-      <img style="height: 15rem; object-fit: cover; filter:contrast(10);" src="./Images/Text_analyzer_favicon1.png"
-        class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title">Text Analyzer</h5>
-        <p class="card-text">We can modify Your text, detect mail... Explore Now .. </p>
-        <a href="https://www.text-analyzer.tech/" style="text-align: center;"
-          class="btn btn-dark">View</a>
-      </div>
-    </div>
-    <div class="card project" style="width: 18rem; ">
-      <img style="height: 15rem; object-fit: cover; filter:contrast(10);" src="./Images/notes.jpg"
-        class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title">NoteBook</h5>
-        <p class="card-text">A full-stack web app to create, organize, and manage notes..</p>
-        <a href="https://notebook-hackathon.vercel.app/" style="text-align: center;"
-          class="btn btn-dark">View</a>
-      </div>
-    </div>
-    <div class="card project" style="width: 18rem; ">
-      <img style="height: 15rem; object-fit: cover; filter:contrast(10);" src="./Images/Attendance.avif"
-        class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title">Edutrack</h5>
-        <p class="card-text">A MERN Stack Project Attendance..</p>
-        <a href="https://edu-track-blush.vercel.app/" style="text-align: center;"
-          class="btn btn-dark">View</a>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="section-title">
-    <span>Resume</span>
-  </div>
-
-  <div class="resume" id="resume">
-    <iframe class="iframe" src="Resume.pdf"></iframe>
-  </div>
-
-  <div class="section-title">
-    <span>Connect With Me</span>
-  </div>
-
-
-  <div class="social">
-
-    <div class="card">
-      <a
-        href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=DmwnWrRmVpVMlwZHTntpnBdBQCKKcztZvnDDHXgMRnGStWGGJkpwwBFpsJTMLdzNMFmfhFpfrjkL"><i
-          class="fa-solid fa-envelope"></i></a>
-      <div>Gmail</div>
-    </div>
-    <div class="card">
-      <a href="https://github.com/Tejas-07-iiit"><i class="fa-brands fa-github"></i></a>
-      <div style="margin-left: 6px;">Github</div>
-    </div>
-    <div class="card">
-      <a href="https://linkedin.com/in/tejas-ambaliya"><i class="fa-brands fa-linkedin"></i></a>
-      <div>Linkedin</div>
-    </div>
-    <div class="card">
-      <a href="https://x.com/tejas_ambaliya"><i class="fa-brands fa-x-twitter"></i></a>
-      <div>X</div>
-    </div>
-    <div class="card">
-      <a href="https://web.telegram.org/k/"><i class="fa-brands fa-telegram"></i></a>
-      <div>Telegram</div>
-    </div>
-
-  </div>
-
-  <section class="contact" id="connect">
-    <h2>Get in Touch</h2>
-
-    <form action="https://formspree.io/f/xkgdlzyy" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-
   </section>
 
+  <!-- Experience Section -->
+  <section class="section-wrapper" id="experience">
+    <div class="section-header">
+      <div class="section-tag">Career</div>
+      <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+    <div class="experience-timeline">
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Software Engineering Intern</h3>
+            <h4 class="exp-company"><i class="fa-solid fa-building"></i> Yo Greet LLP <span class="exp-tag">Summer Internship</span></h4>
+          </div>
+          <div class="exp-date"><i class="fa-regular fa-calendar"></i> May 2026 – July 2026</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>Developed and maintained an admin panel for a microservices-based iOS application using <strong>Next.js</strong>, <strong>NestJS</strong>, and <strong>PostgreSQL</strong>, deployed on <strong>AWS</strong>.</li>
+          <li>Built and integrated a customer support system within the admin panel to manage operations efficiently.</li>
+        </ul>
+        <div class="tech-pills">
+          <span class="pill">Next.js</span>
+          <span class="pill">NestJS</span>
+          <span class="pill">PostgreSQL</span>
+          <span class="pill">AWS</span>
+          <span class="pill">Microservices</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section (Priority-Ordered, Clean Attached Images & Only Real Links) -->
+  <section class="section-wrapper" id="projects">
+    <div class="section-header">
+      <div class="section-tag">Portfolio</div>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Priority 1: Customer Support AI Agent -->
+      <div class="project-card">
+        <div class="project-image-box">
+          <img src="./Images/ai_agent.png" alt="Customer Support AI Agent">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Customer Support - AI Agent</h3>
+          <p class="project-desc">
+            Multi-agent AI platform for automated customer support ticket resolution using RAG, LLMs, and semantic vector retrieval.
+          </p>
+          <div class="project-highlight">
+            <i class="fa-solid fa-diagram-project"></i> <strong>LangGraph Orchestration Pipeline:</strong> Ticket Analysis, Context Retrieval, Reasoning, Tool Executor, Response Writer, Reviewer & Fallback agents.
+          </div>
+          <div class="tech-pills">
+            <span class="pill pill-accent">LangGraph</span>
+            <span class="pill pill-accent">RAG</span>
+            <span class="pill">Next.js</span>
+            <span class="pill">NestJS</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">Qdrant</span>
+            <span class="pill">Redis</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tejas-07-iiit/Customer-Support-Agent" target="_blank" class="btn btn-sm btn-primary"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="http://13.127.34.137:3001/" target="_blank" class="btn btn-sm btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Priority 2: T&P IIIT Surat Mobile Application (No link attached) -->
+      <div class="project-card">
+        <div class="project-image-box">
+          <img src="./Images/tp_app.png" alt="T&P IIIT Surat Mobile Application">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">T&P-IIIT-SURAT - Mobile Application</h3>
+          <p class="project-desc">
+            Cross-platform T&P mobile application for IIIT Surat to discover placement drives, apply for jobs, track applications, and register for events.
+          </p>
+          <div class="project-highlight">
+            <i class="fa-solid fa-bell"></i> <strong>Real-time Push Notifications:</strong> Alerts for new placement drives, status changes, and upcoming T&P events.
+          </div>
+          <div class="tech-pills">
+            <span class="pill">Next.js</span>
+            <span class="pill">Firebase</span>
+            <span class="pill">Tailwind CSS</span>
+            <span class="pill">TypeScript</span>
+            <span class="pill">Capacitor</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Priority 3: Notes Management System -->
+      <div class="project-card">
+        <div class="project-image-box">
+          <img src="./Images/notes.jpg" alt="Notes Management System">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Notes Management System</h3>
+          <p class="project-desc">
+            MERN-stack academic platform with JWT authentication, institution domain verification, and role-based access control (RBAC).
+          </p>
+          <div class="project-highlight">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> <strong>AI Summarization:</strong> AI workflow extracting key concepts and generating concise summaries from academic notes & PDFs.
+          </div>
+          <div class="tech-pills">
+            <span class="pill">React.js</span>
+            <span class="pill">Node.js</span>
+            <span class="pill">Express.js</span>
+            <span class="pill">MongoDB</span>
+            <span class="pill">JWT</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tejas-07-iiit/notebook---hackathon" target="_blank" class="btn btn-sm btn-primary"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://notebook-hackathon.vercel.app/" target="_blank" class="btn btn-sm btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text Analyzer -->
+      <div class="project-card">
+        <div class="project-image-box">
+          <img src="./Images/Text_analyzer_favicon1.png" alt="Text Analyzer">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Text Analyzer</h3>
+          <p class="project-desc">
+            Web application utility for real-time text manipulation, email detection, character/word metrics calculation, and formatting.
+          </p>
+          <div class="tech-pills">
+            <span class="pill">JavaScript</span>
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">Bootstrap</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tejas-07-iiit/Text-Analyzer" target="_blank" class="btn btn-sm btn-primary"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.text-analyzer.tech/" target="_blank" class="btn btn-sm btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- EduTrack -->
+      <div class="project-card">
+        <div class="project-image-box">
+          <img src="./Images/Attendance.avif" alt="EduTrack">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">EduTrack</h3>
+          <p class="project-desc">
+            Full-stack MERN application for managing student attendance, generating reports, and tracking course participation.
+          </p>
+          <div class="tech-pills">
+            <span class="pill">MongoDB</span>
+            <span class="pill">Express.js</span>
+            <span class="pill">React.js</span>
+            <span class="pill">Node.js</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tejas-07-iiit/EduTrack" target="_blank" class="btn btn-sm btn-primary"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://edu-track-blush.vercel.app/" target="_blank" class="btn btn-sm btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Explore</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Technical Skills Section (Including Docker) -->
+  <section class="section-wrapper" id="skills">
+    <div class="section-header">
+      <div class="section-tag">Capabilities</div>
+      <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+    </div>
+
+    <div class="skills-grid-container">
+
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-code"></i>
+          <h3>Languages</h3>
+        </div>
+        <div class="skills-flex">
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card highlight-category">
+        <div class="category-header">
+          <i class="fa-solid fa-brain"></i>
+          <h3>AI / LLM Orchestration</h3>
+        </div>
+        <div class="skills-flex">
+          <span class="skill-tag tag-ai">LangGraph</span>
+          <span class="skill-tag tag-ai">RAG</span>
+          <span class="skill-tag tag-ai">Multi-Agent Systems</span>
+          <span class="skill-tag tag-ai">LLMs & Embedding</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-layer-group"></i>
+          <h3>Technologies & Frameworks</h3>
+        </div>
+        <div class="skills-flex">
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">NestJS</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express.js</span>
+          <span class="skill-tag">Redux</span>
+          <span class="skill-tag">Tailwind CSS</span>
+          <span class="skill-tag">Bootstrap</span>
+          <span class="skill-tag">REST APIs</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-database"></i>
+          <h3>Databases & Caching</h3>
+        </div>
+        <div class="skills-flex">
+          <span class="skill-tag">MongoDB (Atlas)</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Qdrant</span>
+          <span class="skill-tag">Redis</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h3>Tools & DevOps</h3>
+        </div>
+        <div class="skills-flex">
+          <span class="skill-tag tag-featured"><i class="fa-brands fa-docker"></i> Docker</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">AWS (basics)</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Postman</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Relevant Coursework</h3>
+        </div>
+        <div class="skills-flex">
+          <span class="skill-tag">DSA</span>
+          <span class="skill-tag">Operating Systems</span>
+          <span class="skill-tag">OOP</span>
+          <span class="skill-tag">DBMS</span>
+          <span class="skill-tag">Software Engineering</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- DSA Profiles -->
+    <div class="dsa-box">
+      <h3><i class="fa-solid fa-code-compare"></i> Competitive Programming & Coding Profiles</h3>
+      <div class="profiles-wrapper">
+        <a href="https://leetcode.com/u/Tejas_07_iiit/" target="_blank" class="profile-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
+          <span>LeetCode</span>
+        </a>
+        <a href="https://codeforces.com/profile/Tejas_07_iiit" target="_blank" class="profile-card">
+          <img src="./Images/codeforces.webp" alt="Codeforces">
+          <span>Codeforces</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Position of Responsibility Section -->
+  <section class="section-wrapper" id="positions">
+    <div class="section-header">
+      <div class="section-tag">Leadership</div>
+      <h2 class="section-title">Position of <span class="gradient-text">Responsibility</span></h2>
+    </div>
+
+    <div class="responsibility-card">
+      <div class="resp-header">
+        <div>
+          <h3 class="resp-title">Developer — TNP Tech Team</h3>
+          <h4 class="resp-org"><i class="fa-solid fa-building-columns"></i> IIIT-SURAT</h4>
+        </div>
+        <div class="resp-date"><i class="fa-regular fa-calendar"></i> March 2026 – Present</div>
+      </div>
+      <ul class="resp-list">
+        <li>Maintained and enhanced the placement portal used by <strong>500+ students</strong> and placement coordinators across IIIT Surat.</li>
+        <li>Diagnosed and resolved critical bugs, enhancing application stability, speed, and user experience for placement drives.</li>
+        <li>Supported portal operations and feature updates for smooth recruitment processes across the institute.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section-wrapper" id="achievements">
+    <div class="section-header">
+      <div class="section-tag">Recognition</div>
+      <h2 class="section-title">Honors & <span class="gradient-text">Achievements</span></h2>
+    </div>
+
+    <div class="achievement-card">
+      <div class="achieve-icon">
+        <i class="fa-solid fa-trophy"></i>
+      </div>
+      <div class="achieve-details">
+        <h3>Top 15 out of 50 Teams</h3>
+        <h4>GDG IIIT Surat's DevHeat Beta Hackathon</h4>
+        <p>Secured top ranking for innovative solution design and prototype execution during the competitive flagship hackathon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full-View Resume Section -->
+  <section class="section-wrapper" id="resume">
+    <div class="section-header">
+      <div class="section-tag">Document</div>
+      <h2 class="section-title">Curriculum <span class="gradient-text">Vitae</span></h2>
+    </div>
+
+    <div class="resume-container">
+      <div class="resume-actions">
+        <a href="Resume.pdf" target="_blank" download="Tejas_Ambaliya_Resume.pdf" class="btn btn-primary">
+          <i class="fa-solid fa-download"></i> Download Resume PDF
+        </a>
+      </div>
+      <div class="resume-wrapper">
+        <iframe class="resume-iframe" src="Resume.pdf#toolbar=0&navpanes=0&scrollbar=0" title="Tejas Ambaliya Resume"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get in Touch & Footer Section -->
+  <footer class="footer-contact-section" id="connect">
+    <div class="footer-container">
+      <div class="section-header">
+        <div class="section-tag">Contact</div>
+        <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Feel free to reach out for opportunities, collaborations, or inquiries.</p>
+      </div>
+
+      <div class="footer-content-grid">
+        
+        <!-- Left: Direct Contact Information -->
+        <div class="footer-info-card">
+          <h3>Contact Details</h3>
+          <div class="contact-links-list">
+            <a href="mailto:dev.tejasambaliya@gmail.com" class="contact-link-item">
+              <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="link-label">Email</span>
+                <span class="link-value">dev.tejasambaliya@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+917801959780" class="contact-link-item">
+              <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span class="link-label">Phone</span>
+                <span class="link-value">+91 78019-59780</span>
+              </div>
+            </a>
+            <div class="contact-link-item static">
+              <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="link-label">Location</span>
+                <span class="link-value">IIIT Surat, Gujarat, India</span>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="social-title">Social Connect</h4>
+          <div class="footer-social-icons">
+            <a href="https://github.com/Tejas-07-iiit" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/tejas-ambaliya" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://leetcode.com/u/Tejas_07_iiit/" target="_blank" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+            <a href="https://x.com/tejas_ambaliya" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://web.telegram.org/k/" target="_blank" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: Message Form -->
+        <div class="footer-form-card">
+          <h3>Send a Message</h3>
+          <form action="https://formspree.io/f/xkgdlzyy" method="POST" class="modern-contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p>&copy; 2026 Tejas Ambaliya. Built with passion & modern web technologies.</p>
+        <a href="#home" class="back-to-top" title="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
